@@ -4,6 +4,9 @@
 
 The objective of this report is to offer insights into the development process of the Medical Clinic website. The website aims to present crucial information about the clinic, including details about its services, office hours, and contact information. The development process involved the creation of separate HTML pages for different sections of the website, such as Home, About the Clinic, Office Hours, and Contact.
 
+![Medical-Clinic](https://github.com/Daniel-Gehlen/html-clinic-website-development/assets/142283217/1e739db1-8b5e-4fb2-a7a0-0dc1cbee542c)
+
+
 ## Methods
 
 ### Coding Approach
