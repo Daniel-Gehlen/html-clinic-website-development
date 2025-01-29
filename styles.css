@@ -141,3 +141,9 @@ footer.fixed-footer {
     left: 0;
     width: 100%;
 }
+
+/* Ajuste o padding-bottom do conteúdo na página de contato */
+body.contact-page #content,
+body.hours-page #content {
+    padding-bottom: 100px; /* Ajuste conforme a altura do footer */
+}
