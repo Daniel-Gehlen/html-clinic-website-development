@@ -30,17 +30,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js (opcional, se precisar de build)
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20' # Altere para a versão do Node.js que você usa
-
-      - name: Install dependencies (opcional, se precisar de build)
-        run: npm install # Ou outro comando de instalação de dependências
-
-      - name: Build project (opcional, se precisar de build)
-        run: npm run build # Ou outro comando de build
-
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
@@ -49,8 +38,7 @@ jobs:
         with:
           # Especifique o caminho para o conteúdo estático
           # Se o conteúdo estiver na raiz, use '.'
-          # Se o conteúdo estiver em uma pasta como 'dist' ou 'public', especifique o caminho
-          path: 'dist' # Altere para o caminho correto do seu conteúdo estático
+          path: '.' # Altere para o caminho correto do seu conteúdo estático
 
       - name: Deploy to GitHub Pages
         id: deployment
