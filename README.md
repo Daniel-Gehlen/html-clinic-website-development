@@ -6,7 +6,6 @@ The objective of this report is to offer insights into the development process o
 
 ![Medical-Clinic](https://github.com/Daniel-Gehlen/html-clinic-website-development/assets/142283217/1e739db1-8b5e-4fb2-a7a0-0dc1cbee542c)
 
-
 ## Methods
 
 ### Coding Approach
@@ -34,4 +33,3 @@ The About Page offers detailed information about the clinic's history, mission, 
 ### Office Hours Page (`hours.html`)
 
 The Office Hours Page provides a table detailing the services offered by the clinic and their corresponding hours of operation.
-
