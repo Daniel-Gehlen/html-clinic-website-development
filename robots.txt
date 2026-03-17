@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://github.com/Daniel-Gehlen/html-clinic-website-development/sitemap.xml
