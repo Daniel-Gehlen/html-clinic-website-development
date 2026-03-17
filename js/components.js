@@ -1,3 +1,16 @@
+// Basic Logging Utility
+export const Logger = {
+  info: (msg) => console.log(`[INFO] ${new Date().toISOString()}: ${msg}`),
+  error: (msg, err) =>
+    console.error(`[ERROR] ${new Date().toISOString()}: ${msg}`, err),
+};
+
+// Global Error Handler
+window.addEventListener("error", (event) => {
+  Logger.error("Uncaught error detected", event.error);
+  // In a professional app, you'd send this to an error tracking service
+});
+
 export function renderHeader(imagePath) {
   const header = document.querySelector("header");
   if (header) {
